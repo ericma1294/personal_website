@@ -1,0 +1,188 @@
+$sectionPadding: 1rem;
+$sectionMargin: 1rem 0;
+$sectionBackground:#333842;
+$sectionBorderRadius: 15px;
+
+body {
+    background: #2a2a2a;
+    color: white;
+    padding: 2rem;    
+    h1, h2, h3 {
+        color: #adafb3
+    }
+    
+    p {
+        text-align: left
+    }
+}
+
+.homePage {
+    // border: solid yellow 2px;
+    padding: $sectionPadding;
+    margin: $sectionMargin;
+    h1 {
+        color:white; 
+    }
+
+    h2 {
+        color: #86c5da 
+    }
+
+    .profilePic {
+        width: 50%;
+        border-radius: 50%;
+    }
+}
+
+.about {
+    // border: solid greenyellow 2px;
+    padding: $sectionPadding;
+    margin: $sectionMargin;
+    background: $sectionBackground;
+    border-radius: $sectionBorderRadius;
+
+
+    h1 {
+        color: #ff4c4c
+    }
+}
+
+.skills { 
+    padding: $sectionPadding;
+    margin: $sectionMargin;
+    background: $sectionBackground;
+    border-radius: $sectionBorderRadius;
+
+    h1 {
+        color: #cd00cd
+    }
+    
+    h2 {
+        text-align: left;
+    }
+
+    .indvSkills {
+        // border: solid yellow 2px;
+        background: #474b54;
+        padding: 5px;
+        border-radius: 10%;
+        margin: 0.25rem;
+
+        p {
+            text-align: center;
+            margin: 0;
+            font-size: 14pt;
+        }
+    }
+}
+
+.portfolio {
+    padding: $sectionPadding;
+    margin: $sectionMargin;
+    background: $sectionBackground;
+    border-radius: $sectionBorderRadius;
+
+    h1 {
+        color: #F0E68C;
+    }
+
+    .projectDetail {
+        background-color:#474b54;
+        border: solid 1px #333842;
+        span, p {
+            color: white;
+        }
+    }
+    .ant-collapse-header {
+        text-align: left;
+    }
+    .ant-collapse-content-box {
+        background-color: #5b5f67;
+        padding: 0.5rem;
+    }
+}
+
+.contact {
+    padding: $sectionPadding;
+    margin: 2rem 0;
+    background: $sectionBackground;
+    border-radius: $sectionBorderRadius;
+
+    p {
+        text-align: center;
+    }
+
+    h1 {
+        color: #90EE90;
+        margin: 0;
+    }
+    
+}
+
+@media only screen and (min-width: 769px) {
+    body {
+        padding: 0 12rem;
+    }
+
+    .navbar {
+        
+    }
+
+    .homePage {
+        height: 100vh;
+
+        h2 {
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 30pt;
+        }
+    }
+
+    .about, .skills, .portfolio {
+        height: 60vh;
+    }
+    .about {
+        p {
+            font-size: 14pt;
+        }
+    }
+
+    .skills {
+        h2 {
+            text-align: right;
+        }
+
+        .skillContainer {
+            margin: 1rem 0; 
+        }
+
+        .indvSkills {
+            p {
+                font-size: 12pt;
+            }
+        }
+    }
+
+    .portfolio {
+        p {
+            text-align: center;
+        }
+
+        .projectDetailContainer {
+            background-color:#474b54;
+        }
+
+        .projectCards {
+            background: transparent;
+            color: white;
+        }
+
+        .projectIcon {
+            font-size: 20pt;
+        }
+    }
+
+
+}

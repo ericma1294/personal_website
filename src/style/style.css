@@ -1,0 +1,159 @@
+body {
+  background: #2a2a2a;
+  color: white;
+  padding: 2rem;
+}
+
+body h1, body h2, body h3 {
+  color: #adafb3;
+}
+
+body p {
+  text-align: left;
+}
+
+.homePage {
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.homePage h1 {
+  color: white;
+}
+
+.homePage h2 {
+  color: #86c5da;
+}
+
+.homePage .profilePic {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.about {
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #333842;
+  border-radius: 15px;
+}
+
+.about h1 {
+  color: #ff4c4c;
+}
+
+.skills {
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #333842;
+  border-radius: 15px;
+}
+
+.skills h1 {
+  color: #cd00cd;
+}
+
+.skills h2 {
+  text-align: left;
+}
+
+.skills .indvSkills {
+  background: #474b54;
+  padding: 5px;
+  border-radius: 10%;
+  margin: 0.25rem;
+}
+
+.skills .indvSkills p {
+  text-align: center;
+  margin: 0;
+  font-size: 14pt;
+}
+
+.portfolio {
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #333842;
+  border-radius: 15px;
+}
+
+.portfolio h1 {
+  color: #F0E68C;
+}
+
+.portfolio .projectDetail {
+  background-color: #474b54;
+  border: solid 1px #333842;
+}
+
+.portfolio .projectDetail span, .portfolio .projectDetail p {
+  color: white;
+}
+
+.portfolio .ant-collapse-header {
+  text-align: left;
+}
+
+.portfolio .ant-collapse-content-box {
+  background-color: #5b5f67;
+  padding: 0.5rem;
+}
+
+.contact {
+  padding: 1rem;
+  margin: 2rem 0;
+  background: #333842;
+  border-radius: 15px;
+}
+
+.contact p {
+  text-align: center;
+}
+
+.contact h1 {
+  color: #90EE90;
+  margin: 0;
+}
+
+@media only screen and (min-width: 769px) {
+  body {
+    padding: 0 12rem;
+  }
+  .homePage {
+    height: 100vh;
+  }
+  .homePage h2 {
+    text-align: left;
+  }
+  .homePage h1 {
+    font-size: 30pt;
+  }
+  .about, .skills, .portfolio {
+    height: 60vh;
+  }
+  .about p {
+    font-size: 14pt;
+  }
+  .skills h2 {
+    text-align: right;
+  }
+  .skills .skillContainer {
+    margin: 1rem 0;
+  }
+  .skills .indvSkills p {
+    font-size: 12pt;
+  }
+  .portfolio p {
+    text-align: center;
+  }
+  .portfolio .projectDetailContainer {
+    background-color: #474b54;
+  }
+  .portfolio .projectCards {
+    background: transparent;
+    color: white;
+  }
+  .portfolio .projectIcon {
+    font-size: 20pt;
+  }
+}
+/*# sourceMappingURL=style.css.map */
