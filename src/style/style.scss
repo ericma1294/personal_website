@@ -100,6 +100,10 @@ body {
         background-color: #5b5f67;
         padding: 0.5rem;
     }
+    
+    .projectIconN {
+        color: #757576
+    }
 }
 
 .contact {
@@ -125,7 +129,14 @@ body {
     }
 
     .navbar {
+        padding: 0.5rem 0;
+        background: #2a2a2a;
         
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
     }
 
     .homePage {
@@ -180,6 +191,12 @@ body {
         }
 
         .projectIcon {
+            font-size: 20pt;
+            color: white;
+        }
+
+        
+        .projectIconN {
             font-size: 20pt;
         }
     }

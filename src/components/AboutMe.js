@@ -3,7 +3,7 @@ import { Row, Col } from 'antd'
 
 const AboutMe = () => {
   return (
-      <Row className="about" justify='end' align='middle'> 
+      <Row id="about" className="about" justify='end' align='middle'> 
         <Col xs={24} md={8}>
           <h1>About Me</h1>
         </Col>

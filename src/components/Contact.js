@@ -4,7 +4,7 @@ import { MailOutlined, GithubOutlined, LinkedinOutlined } from '@ant-design/icon
 
 const Contact = () => {
   return (
-    <Row className="contact" align='middle'>
+    <Row id="contact" className="contact" align='middle'>
       <Col xs={24} md={8}>
         <h1>Contact</h1>
       </Col>

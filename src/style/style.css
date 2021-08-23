@@ -98,6 +98,10 @@ body p {
   padding: 0.5rem;
 }
 
+.portfolio .projectIconN {
+  color: #757576;
+}
+
 .contact {
   padding: 1rem;
   margin: 2rem 0;
@@ -117,6 +121,15 @@ body p {
 @media only screen and (min-width: 769px) {
   body {
     padding: 0 12rem;
+  }
+  .navbar {
+    padding: 0.5rem 0;
+    background: #2a2a2a;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
   }
   .homePage {
     height: 100vh;
@@ -153,6 +166,10 @@ body p {
     color: white;
   }
   .portfolio .projectIcon {
+    font-size: 20pt;
+    color: white;
+  }
+  .portfolio .projectIconN {
     font-size: 20pt;
   }
 }

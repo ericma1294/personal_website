@@ -31,7 +31,7 @@ const Skills = () => {
   const [ inputData, setInputData ] = useState(data)
 
   return (
-      <Row className="skills" justify='end' align='middle'> 
+      <Row id="skills" className="skills" justify='end' align='middle'> 
         <Col xs={24} md={8}>
           <h1>Skills</h1>
         </Col>

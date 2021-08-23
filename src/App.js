@@ -8,10 +8,17 @@ import Skills from './components/Skills'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 
+import useWindowDimensions from './components/useWindowDimensions'
+
+
 function App() {
+  const { width, height } = useWindowDimensions();
+
   return (
     <div className="App">
-      {/* <NavBar /> */}
+      {
+        width >= 769 ? <NavBar /> : <></>
+      }
       <HomePage />
       <AboutMe />
       <Skills />
